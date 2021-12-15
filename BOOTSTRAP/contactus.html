@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="contactus.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+</head>
+<body style="background-color: #111922;">
+    <div id="nav-placeholder">
+
+    </div>
+    <div class="form-control-menu1">
+        <h1>
+            Contact Us <br>
+            Feel Free To Connect
+        </h1>
+    </div>
+   <div class="form-control-menu2">
+   
+        My name Is <input type="text" id="floatingName" placeholder="Please Enter Name">   
+         ,My E-mail Is <input type="email"  id="floatingInput" placeholder="Please Enter Email" >
+     <br>
+       and I would like to say <input type="text"  placeholder="Leave a comment here" id="floatingTextarea"></input> 
+       <button type="button" class="btn btn-success">Submit</button>
+    </div>
+    
+</body>
+</html>

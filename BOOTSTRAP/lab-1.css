@@ -1,0 +1,8 @@
+
+
+body{
+    background-image: url("pixabay.jpg"); 
+    height: 100%;
+   text-align: center;
+    background-size: cover;
+  }

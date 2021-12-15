@@ -1,0 +1,32 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Franklin:100,300,400,600,700,900';
+
+body{
+    font-family: "Libre Franklin", sans-serif
+}
+
+
+h1{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 300px;
+    color: #ff8d00;
+}
+
+
+input,textarea{
+    border: none; 
+    border-bottom: 1px solid #000000;   
+}
+
+.form-control-menu2,.form-control-menu1{
+    margin-top: 250px;
+    color: #ff8d00;
+}
+
+
+.form-control-menu2{
+    text-align: right;
+    margin-right: 80px;
+    margin-top: -91px;
+}
+

@@ -1,0 +1,12 @@
+.navbar{
+    margin-bottom: 20px;
+}
+
+.nav a{
+    color: aqua !important;
+    font-size: 1.2em !important;
+ }
+
+ .navbar-brand{
+     font-size: 32px;
+ }
